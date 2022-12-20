@@ -375,7 +375,7 @@ Discarded input sections
                 0x00000000       0x20 obj\debug\src\sensors.o
  .debug_ranges  0x00000000       0x10 obj\debug\src\sensors.o
  .debug_line    0x00000000      0x2d0 obj\debug\src\sensors.o
- .debug_str     0x00000000      0x84b obj\debug\src\sensors.o
+ .debug_str     0x00000000      0x858 obj\debug\src\sensors.o
  .comment       0x00000000       0x4d obj\debug\src\sensors.o
  .debug_frame   0x00000000       0x2c obj\debug\src\sensors.o
  .ARM.attributes
@@ -966,28 +966,28 @@ LOAD linker stubs
  .debug_aranges
                 0x000002b8       0x30 obj\debug\src\system_stm32f4xx.o
 
-.debug_str      0x00000000     0x145f
- .debug_str     0x00000000       0x35 obj\debug\src\startup_stm32f401xc.o
- .debug_str     0x00000035      0x929 obj\debug\external\colorsensor\tcs3472.o
+.debug_str      0x00000000     0x1479
+ .debug_str     0x00000000       0x42 obj\debug\src\startup_stm32f401xc.o
+ .debug_str     0x00000042      0x936 obj\debug\external\colorsensor\tcs3472.o
                                 0xa33 (size before relaxing)
- .debug_str     0x0000095e       0x95 obj\debug\fil_lib\src\adc.o
+ .debug_str     0x00000978       0x95 obj\debug\fil_lib\src\adc.o
                                 0x888 (size before relaxing)
- .debug_str     0x000009f3      0x29e obj\debug\fil_lib\src\i2c.o
+ .debug_str     0x00000a0d      0x29e obj\debug\fil_lib\src\i2c.o
                                 0xb2f (size before relaxing)
- .debug_str     0x00000c91       0x20 obj\debug\fil_lib\src\rcc.o
+ .debug_str     0x00000cab       0x20 obj\debug\fil_lib\src\rcc.o
                                 0x934 (size before relaxing)
- .debug_str     0x00000cb1      0x190 obj\debug\fil_lib\src\tim.o
+ .debug_str     0x00000ccb      0x190 obj\debug\fil_lib\src\tim.o
                                 0x9fc (size before relaxing)
- .debug_str     0x00000e41       0x2c obj\debug\src\engine.o
-                                0x904 (size before relaxing)
- .debug_str     0x00000e6d       0x54 obj\debug\src\interrupts.o
-                                0x92f (size before relaxing)
- .debug_str     0x00000ec1      0x4ba obj\debug\src\main.o
-                                0xf5d (size before relaxing)
- .debug_str     0x0000137b       0x29 obj\debug\src\regulator.o
-                                0x81c (size before relaxing)
- .debug_str     0x000013a4       0xbb obj\debug\src\system_stm32f4xx.o
-                                0x3df (size before relaxing)
+ .debug_str     0x00000e5b       0x2c obj\debug\src\engine.o
+                                0x911 (size before relaxing)
+ .debug_str     0x00000e87       0x54 obj\debug\src\interrupts.o
+                                0x93c (size before relaxing)
+ .debug_str     0x00000edb      0x4ba obj\debug\src\main.o
+                                0xf6a (size before relaxing)
+ .debug_str     0x00001395       0x29 obj\debug\src\regulator.o
+                                0x829 (size before relaxing)
+ .debug_str     0x000013be       0xbb obj\debug\src\system_stm32f4xx.o
+                                0x3ec (size before relaxing)
 
 .debug_ranges   0x00000000      0x240
  .debug_ranges  0x00000000       0x20 obj\debug\src\startup_stm32f401xc.o
