@@ -4,7 +4,7 @@
 
 void PID_Init(void)
 {
-    PID_regulator[0].K_p = 2.0;
+    PID_regulator[0].K_p = 2;
     PID_regulator[0].I_p = 0.0;
     PID_regulator[0].D_p = 0.0;
     PID_regulator[0].current = 0.0;
@@ -16,7 +16,7 @@ void PID_Init(void)
     PID_regulator[0].prev_error = 0.0;
     PID_regulator[0].sum_error = 0.0;
 
-    PID_regulator[1].K_p = 1.95;
+    PID_regulator[1].K_p = 2;
     PID_regulator[1].I_p = 0.0;
     PID_regulator[1].D_p = 0.0;
     PID_regulator[1].current = 0.0;

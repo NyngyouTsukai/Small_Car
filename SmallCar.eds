@@ -2,7 +2,7 @@
 <EmBitz_debug_session>
 	<debuggerLastSession>
 		<watches>
-			<watch key="TCS3472" format="0" array="0" start="0" count="0" expanded="0" live="1" />
+			<watch key="TCS3472" format="0" array="0" start="0" count="0" expanded="0" live="0" />
 			<watch key="ADC1_Data" format="0" array="0" start="0" count="0" expanded="0" live="0" />
 			<watch key="PID_regulator" format="0" array="0" start="0" count="0" expanded="1" live="1" />
 			<watch key="speed" format="0" array="0" start="0" count="0" expanded="1" live="1" />

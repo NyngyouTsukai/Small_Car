@@ -16,7 +16,6 @@ void SetMultiplexerState(uint8_t state)
 
 //uint16_t ADCData[2];
 bool status;
-float distance = 0.0;
 int main(void)
 {
 Board_Config;
@@ -40,6 +39,16 @@ TCS3472_Init();
     }
 
 }
+
+//uint8_t data = 0;
+//int c=8;
+//float dist;
+//float a;
+//int main(void)
+//{
+//    uint32_t timer = 0;
+//
+//}
 
 
 
